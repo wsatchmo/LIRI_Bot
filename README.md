@@ -2,25 +2,24 @@
 
 #### Language Interpretation and Recognition Interface
 
-LIRI is a Node-based app which when run will inquire via terminal what the user would like to search for, then responds with data about the chosen input. It utilizes three API's -
+LIRI is a Node-based app which when run will inquire via terminal what the user would like to search for, then responds with data about the chosen input. It utilizes three API's to print information (to both the terminal and to the given file named **output.txt**) about the user's input. These API's are -
 ###### BandsInTown
 ###### Spotify
 ###### OMDB
-- to print information (to both the terminal and to the given file named **output.txt**) about the user's input.
 
 ```diff
 # An Example #
 ```
-When a user runs *node liri.js* in their terminal, LIRI will ask **What would you like to search?** The user is given three options: **Songs**, **Bands**, and **Movies**, and is able to select any combination of the three.
+When a user runs '*node liri.js*' in their terminal, LIRI will query **What would you like to search?** The user is given three options: **Songs**, **Bands**, and **Movies**, and is able to select any combination of the three.
 
 Provided at least one is chosen, the user is then prompted for a search. They may type anything in this field. If their query is matched by any of the chosen search options, data is then printed to the console and to the **output.txt** file.
 
-So if a user selects **Movies**, then searches '8 Mile,' they will receive data about the film including Genre, Ratins, and a shot Plot Summary.
+So if a user selects **Movies**, then searches '8 Mile,' they will receive data about the film including Genre, Ratings, and a short Plot Summary.
 
 ```diff
 + Resources Used +
 ```
-###### Inquirer - For Querying a user for input
+###### Inquirer - For Querying users for input
 ###### Moment - To reformat dates
 ###### AXIOS - For handling API objects
 ###### File System (fs) - To print to 'output.txt'
