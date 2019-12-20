@@ -47,7 +47,7 @@ var spotify = new Spotify({
   secret: <your spotify client secret>
 });
 ```
-However, your spotify client id and client secret will not be secure. More info on the [Spotify API](https://developer.spotify.com/documentation/web-api/) can be found here: https://www.npmjs.com/package/node-spotify-api
+However, your spotify client id and client secret will not be secure. More info on the [Spotify API](https://developer.spotify.com/documentation/web-api/) node package can be found here: https://www.npmjs.com/package/node-spotify-api
 
 If you would like to add more search parameters, you will need to utilize [inquirer.prompt](https://www.npmjs.com/package/inquirer), and make additions to inquiries in **liri.js** within the inquirer prompt, shown below:
 
