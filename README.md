@@ -10,7 +10,7 @@ LIRI is a Node-based app which when run will inquire via terminal what the user 
 ```diff
 # An Example #
 ```
-When a user runs '*node liri.js*' in their terminal, LIRI will query **What would you like to search?** The user is given three options: **Songs**, **Bands**, and **Movies**, and is able to select any combination of the three.
+When a user runs '*node liri.js*' in their terminal, LIRI will inquire **What would you like to search?** The user is given three options: **Songs**, **Bands**, and **Movies**, and is able to select any combination of the three.
 
 Provided at least one is chosen, the user is then prompted for a search. They may type anything in this field. If their query is matched by any of the chosen search options, data is then printed to the console and to the **output.txt** file.
 
