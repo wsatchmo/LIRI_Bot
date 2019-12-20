@@ -3,9 +3,9 @@
 #### Language Interpretation and Recognition Interface
 
 LIRI is a Node-based app which when run will inquire via terminal what the user would like to search for, then responds with data about the chosen input. It utilizes three API's to print information (to both the terminal and to the given file named **output.txt**) about the user's input. These API's are -
-###### BandsInTown
-###### Spotify
-###### OMDB
+##### BandsInTown - Searches live shows and tour dates by band name
+##### Spotify - Searches music by song or artist name
+##### OMDB - Searches movies by title
 
 ```diff
 # An Example #
