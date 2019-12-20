@@ -76,8 +76,8 @@ inquirer.prompt([
   You may also want to change how/where the data is logged or printed to using File System. Below is a sample of the **console-logged** data and the **output.txt** printed data, which is appended asynchronously using [fs.appendFile](https://nodejs.org/api/fs.html#fs_fs_appendfile_path_data_options_callback). More information on fs can be found here: https://nodejs.org/api/fs.html 
 
 ```js
-  console.log(
-    "Lineup: " + bandData[i].lineup.join(",").replace(",", ", ") +
+    console.log(
+        "Lineup: " + bandData[i].lineup.join(",").replace(",", ", ") +
         "\nVenue: " + bandData[i].venue.name + //give venue name and location
         "\nLocation: " + bandData[i].venue.city + ", " + bandData[i].venue.region +
         "\nDate: " + moment(bandData[i].datetime).format('MMMM Do YYYY, h:mm') + //give date of event, reformatted
